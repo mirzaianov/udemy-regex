@@ -6,7 +6,7 @@ const data =
 895.568.2145
 745.256.3369`;
 
-// The Clock Time Problem
+// The Phone Number Problem
 
 const test = data.replace(/[0-9]{3}\.[0-9]{3}\.([0-9]{4})(\n?)/gm, "xxx.xxx.$1$2");
 
